@@ -1,3 +1,6 @@
+/*
+	test pipeline
+*/
 pipeline {
     agent {
         docker {
