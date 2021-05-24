@@ -14,6 +14,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+				sh 'npm config set proxy "http://fastweb.int.bell.ca:8083"'
                 sh 'npm install'
             }
         }
